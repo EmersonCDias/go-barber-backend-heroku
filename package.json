@@ -5,8 +5,8 @@
     "node": "12.13.1"
   },
   "scripts": {
-    "start": "ts-node src/config/server.ts",
-    "dev": "nodemon -x ts-node src/config/server.ts"
+    "start": "ts-node src/shared/infra/http/server.ts",
+    "dev": "nodemon -x ts-node src/shared/infra/http/server.ts"
   },
   "dependencies": {
     "@types/express": "^4.17.12",

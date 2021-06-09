@@ -1,2 +1,11 @@
+*.log
+*.error
+.vs
+.vscode
+.tmp
 node_modules
+tmp/*
+!tmp/.gitkeep
+dist
+coverage
 .idea
